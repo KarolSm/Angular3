@@ -3,11 +3,11 @@ import { DataService } from '../../services/data-service'
 import { Router, ActivatedRoute } from "@angular/router"
 
 @Component({
-  selector: 'app-przefiltrowane',
-  templateUrl: './przefiltrowane.component.html',
-  styleUrls: ['./przefiltrowane.component.scss']
+  selector: 'app-filtered',
+  templateUrl: './filtered.component.html',
+  styleUrls: ['./filtered.component.scss']
 })
-export class PrzefiltrowaneComponent implements OnInit {
+export class FilteredComponent implements OnInit {
 
   years: Array<any>;
   data: Array<any>;

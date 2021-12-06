@@ -4,9 +4,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GazetyComponent } from './components/gazety/gazety.component';
-import { LataComponent } from './components/przefiltrowane/lata/lata.component';
-import { DaneComponent } from './components/przefiltrowane/dane/dane.component';
-import { PrzefiltrowaneComponent } from './components/przefiltrowane/przefiltrowane.component';
+import { LataComponent } from './components/filtered/lata/lata.component';
+import { DaneComponent } from './components/filtered/dane/dane.component';
+import { FilteredComponent } from './components/filtered/filtered.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { PrzefiltrowaneComponent } from './components/przefiltrowane/przefiltrow
     GazetyComponent,
     LataComponent,
     DaneComponent,
-    PrzefiltrowaneComponent
+    FilteredComponent
   ],
   imports: [
     BrowserModule,

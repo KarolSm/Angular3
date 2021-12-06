@@ -1,11 +1,11 @@
-import { PrzefiltrowaneComponent } from './components/przefiltrowane/przefiltrowane.component';
+import { FilteredComponent } from './components/filtered/filtered.component';
 import { GazetyComponent } from './components/gazety/gazety.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   { path: '', component: GazetyComponent },
-  { path: ':magazyn', component: PrzefiltrowaneComponent }, //parametr
+  { path: ':magazyn', component: FilteredComponent }, //parametr
   // { path: '', redirectTo: "/", pathMatch: "full" }, //przekierowanie
   { path: '**', redirectTo: "/", pathMatch: "full" } //wildcard
 ];
